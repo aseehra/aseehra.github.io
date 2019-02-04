@@ -138,6 +138,10 @@ p {
 }
 
 .hero {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
   margin-top: 20rem;
   margin-bottom: 13rem;
   font-size: var(--modular-4);
@@ -145,17 +149,15 @@ p {
 
 .hero__header,
 .hero__subheader {
-  margin-bottom: 3rem;
+  grid-column: span 4;
+}
+
+.hero__header {
+  font-size: var(--modular-2);
 }
 
 .hero__header--index {
   font-size: var(--modular-1);
-}
-
-.hero {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 2rem;
 }
 
 .hero--project {
@@ -167,15 +169,6 @@ p {
   grid-row: 1;
   grid-column: span 4;
   width: 100%;
-  margin-bottom: 3rem;
-}
-.hero__copy {
-  grid-row: 2;
-  grid-column: span 4;
-}
-
-.hero__header {
-  font-size: var(--modular-2);
 }
 
 .projects__header {
@@ -279,7 +272,8 @@ p {
     grid-column: 1/4;
   }
 
-  .hero__copy {
+  .hero__header,
+  .hero__subheader {
     grid-column: 1/4;
   }
 
