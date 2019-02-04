@@ -1,6 +1,6 @@
 :root {
   --color-primary-dark: hsl(217, 38%, 28%);
-  --color-primary: hsl(217, 42%, 33%);
+  --color-primary: hsl(217, 75%, 33%);
   --color-grey: hsl(217, 5%, 75%);
 
   --modular-1: 4.736rem;
@@ -55,7 +55,7 @@ p {
 
 .link:hover,
 .link-hover-only:hover {
-  border-bottom: 0.2rem solid var(--color-primary);
+  border-bottom: 0.1rem solid var(--color-primary);
 }
 
 .button {
@@ -208,7 +208,7 @@ p {
   margin-bottom: 1em;
 }
 
-.publication p {
+.publication__line {
   margin: 0;
 }
 
