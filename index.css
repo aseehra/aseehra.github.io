@@ -31,6 +31,11 @@ a {
   text-decoration: none;
 }
 
+p {
+  line-height: var(--modular-4);
+  margin-bottom: var(--modular-4);
+}
+
 .sr-only {
   position: absoulte !important;
   height: 1px;
@@ -174,6 +179,35 @@ a {
 
 .project__technology {
   margin-right: 1em;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2em;
+}
+
+.section__header {
+  font-size: var(--modular-4);
+  margin: 1em 0;
+}
+
+.section__copy {
+  grid-column: span 4;
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+
+.publication p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 500px) {
+  .section__copy {
+    grid-column: 1/4;
+  }
 }
 
 @media only screen and (min-height: 700px) {
