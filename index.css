@@ -179,7 +179,7 @@ p {
 }
 
 .project__technologies {
-  font-size: 2em;
+  font-size: var(--modular-4);
 }
 
 .project__technologies_list {
