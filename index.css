@@ -2,6 +2,7 @@
   --color-primary-dark: hsl(217, 38%, 28%);
   --color-primary: hsl(217, 75%, 33%);
   --color-grey: hsl(217, 5%, 75%);
+  --color-light-grey: hsl(217, 5%, 95%);
 
   --modular-1: 4.736rem;
   --modular-2: 3.553rem;
@@ -157,8 +158,9 @@ p {
   grid-column-gap: 2rem;
 }
 
-.hero--with-image {
-  margin-top: 2rem;
+.hero--project {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .hero__image {
@@ -248,6 +250,15 @@ p {
   font-size: var(--modular-1);
 }
 
+.project-details {
+  grid-column: span 4;
+  margin-bottom: 3rem;
+  padding: 1em;
+  border-radius: 0.2rem;
+  background-color: var(--color-light-grey);
+  line-height: var(--modular-4);
+}
+
 @media only screen and (min-width: 500px) {
   .section__copy {
     grid-column: 1/4;
@@ -259,6 +270,12 @@ p {
 
   .hero__image {
     grid-column: 2/5;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .project-details {
+    grid-column: span 2;
   }
 }
 
