@@ -224,6 +224,20 @@ p {
   grid-column-gap: 2em;
 }
 
+.section__image-row {
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.section__inline-image {
+  grid-column: span 1;
+  width: 100%;
+}
+
 .section__header {
   font-size: var(--modular-4);
   margin: 1em 0;
@@ -270,6 +284,10 @@ p {
 
   .hero__image {
     grid-column: 2/5;
+  }
+
+  .section__image-row {
+    grid-column-gap: 6rem;
   }
 }
 
