@@ -49,12 +49,16 @@ p {
   color: var(--color-primary);
 }
 
-.link-hover-only {
+.hover-link {
   color: inherit;
 }
 
+.hover-link--icon:hover {
+  color: var(--color-primary);
+}
+
 .link:hover,
-.link-hover-only:hover {
+.hover-link:hover {
   border-bottom: 0.1rem solid var(--color-primary);
 }
 
@@ -210,6 +214,15 @@ p {
 
 .publication__line {
   margin: 0;
+}
+
+.lg-contact-icons {
+  grid-column: span 4;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: var(--modular-1);
 }
 
 @media only screen and (min-width: 500px) {
