@@ -1,6 +1,7 @@
 :root {
   --color-primary-dark: hsl(217, 38%, 28%);
   --color-primary: hsl(217, 42%, 33%);
+  --color-grey: hsl(217, 5%, 75%);
 
   --modular-1: 4.736rem;
   --modular-2: 3.553rem;
@@ -91,6 +92,31 @@ a {
 
 .top-nav__link:hover {
   border-bottom: 0.2rem solid var(--color-primary);
+}
+
+.footer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5rem;
+  padding: 1rem 0;
+  border-top: solid 1px var(--color-grey);
+  font-size: var(--modular-4);
+}
+
+.footer__copyright {
+  font-size: var(--modular-6);
+}
+
+.footer__contacts {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.footer__contact {
+  margin-right: 1em;
 }
 
 .hero {
