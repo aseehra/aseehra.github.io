@@ -201,14 +201,18 @@ p {
   font-size: var(--modular-4);
 }
 
-.project__technologies_list {
+.technologies-list--lg {
+  font-size: var(--modular-3);
+}
+
+.technologies-list {
   display: flex;
   flex-flow: row wrap;
   max-width: 20ex;
   margin-top: 0.5em;
 }
 
-.project__technology {
+.technology {
   margin-right: 1em;
 }
 
