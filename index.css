@@ -99,6 +99,14 @@ p {
   border-bottom: 0.2rem solid var(--color-primary);
 }
 
+.top-nav__link--active {
+  border-bottom: 0.2rem solid black;
+}
+
+.top-nav__link--active:hover {
+  cursor: pointer;
+}
+
 .footer {
   display: flex;
   flex-flow: row nowrap;
