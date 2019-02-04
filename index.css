@@ -119,19 +119,25 @@ a {
   margin-right: 1em;
 }
 
+.index-hero,
 .hero {
   margin-top: 20rem;
   margin-bottom: 13rem;
   font-size: var(--modular-4);
 }
 
-.hero__header {
+.index-hero__header,
+.hero__header,
+.hero__subheader {
   margin: 3rem 0;
+}
+
+.index-hero__header {
   font-size: var(--modular-1);
 }
 
-.hero__subheader {
-  margin: 3rem 0;
+.hero__header {
+  font-size: var(--modular-2);
 }
 
 .projects__header {
@@ -171,7 +177,7 @@ a {
 }
 
 @media only screen and (min-height: 700px) {
-  .hero {
+  .index-hero {
     margin-bottom: 28rem;
   }
 }
