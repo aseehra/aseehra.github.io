@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <include src="head.html"></include>
+    <block name="title">
+      <title>Arun Seehra</title>
+    </block>
+    <block name="stylesheets">
+      <link rel="stylesheet" href="./assets/font-mizz/font-mfizz.css" />
+      <link rel="stylesheet" href="./index.css" />
+    </block>
+  </head>
+  <body>
+    <nav class="top-nav">
+      <block name="nav">
+        <include src="nav.html"></include>
+      </block>
+    </nav>
+
+    <main>
+      <block name="main"></block>
+    </main>
+
+    <footer class="footer">
+      <block name="footer">
+        <include src="footer.html"></include>
+      </block>
+    </footer>
+  </body>
+</html>
