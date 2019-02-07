@@ -6,7 +6,7 @@
   "author": "Arun Seehra <seehra.a@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "start": "parcel src/index.html --open",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist -b master"
   },
@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "autoprefixer": "^9.4.7",
-    "posthtml-extend": "^0.3.0",
-    "posthtml-include": "^1.2.0"
+    "posthtml-extend": "^0.3.0"
   }
 }

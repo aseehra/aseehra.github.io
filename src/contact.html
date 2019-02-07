@@ -43,9 +43,10 @@
   </block>
 
   <block name="footer">
-    <div></div>
-    <aside class="footer__copyright">
-      &copy; 2019 Arun Seehra
-    </aside>
+    <extends src="footer.html">
+      <block name="contacts">
+        <div></div>
+      </block>
+    </extends>
   </block>
 </extends>
