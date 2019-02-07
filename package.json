@@ -1,0 +1,8 @@
+{
+  "name": "aseehra-portfolio",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "repository": "git@github.com:aseehra/aseehra.github.io.git",
+  "author": "Arun Seehra <seehra.a@gmail.com>",
+  "license": "ISC"
+}
