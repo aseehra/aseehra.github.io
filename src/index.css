@@ -172,12 +172,16 @@ p {
   width: 100%;
 }
 
+.project-name {
+  font-style: italic;
+}
+
 .projects__header {
   font-size: var(--modular-2);
 }
 
 .project {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .project__screenshot {
@@ -217,6 +221,10 @@ p {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 2em;
+}
+
+.section--project {
+  grid-row-gap: 3em;
 }
 
 .section__image-row {
